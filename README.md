@@ -83,14 +83,17 @@ python bookmark2excel.py
 - **Select HTML file**: A file dialog will appear; choose your bookmarks HTML file.
 - **Folder Selection**: A GUI window will open showing your bookmark folders. Check the ones you want to process and click "Confirm".
 <img src="assets/folder_selection_gui.png" alt="Shows the folder selection interface" width="750"/>
+
 - **Include Source Filename?**: You will be prompted to decide if you want to include the input file name in the output Excel file.
 <img src="assets/input_filename_prompt.png" alt="Shows the 'store input filename' prompt" width="350"/>
+
 - **Save Excel File**: Choose the location and filename for the Excel output.
 
 **3. Review the output:**
 
 - A summary window will show the number of bookmarks processed and the location of the Excel file.
-<img src="assets/processing_complete_dialog.png" alt="Shows the completion summary dialog" width="450"/>  
+<img src="assets/processing_complete_dialog.png" alt="Shows the completion summary dialog" width="450"/>
+
 - Open the Excel file to review your organized bookmark data.
   The generated Excel file will have: 
 ` Each folder level in a separate column`,
