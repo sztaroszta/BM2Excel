@@ -2,11 +2,12 @@
 
 BM2Excel is a Python tool that converts HTML bookmarks into a structured, well-formatted Excel spreadsheet. It extracts bookmark data using BeautifulSoup, organizes folder hierarchies into separate columns, and outputs an Excel workbook that’s easy to analyze and report on 🔖 ➡️ 📊
 
-**➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/bm2excel-python-bookmark-organizer-25ba822ad99c
-)**
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ![BM2Excel: Convert HTML Bookmarks to Excel](assets/bm2excel_banner.png)
 
+**➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/bm2excel-python-bookmark-organizer-25ba822ad99c
+)**
 
 ## Table of Contents
 
@@ -141,7 +142,8 @@ If you wish to contribute or enhance BM2Excel:
 
 - The tool relies on proper HTML structure in the bookmark file. Malformed files may cause unexpected results.
 - GUI dialogs might behave differently on various operating systems. Contributions to improve cross-platform compatibility are welcome.
-: **Test Environment:** This code has been tested only on macOS. Users running it on Windows or Linux may encounter different behavior.
+
+**Test Environment:** This code has been tested only on macOS. Users running it on Windows or Linux may encounter different behavior.
 
 ## Contributing
 
