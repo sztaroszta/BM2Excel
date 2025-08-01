@@ -2,11 +2,12 @@
 
 BM2Excel is a Python tool that converts HTML bookmarks into a structured, well-formatted Excel spreadsheet. It extracts bookmark data using BeautifulSoup, organizes folder hierarchies into separate columns, and outputs an Excel workbook that’s easy to analyze and report on 🔖 ➡️ 📊
 
-**➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/bm2excel-python-bookmark-organizer-25ba822ad99c
-)**
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ![BM2Excel: Convert HTML Bookmarks to Excel](assets/bm2excel_banner.png)
 
+**➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/bm2excel-python-bookmark-organizer-25ba822ad99c
+)**
 
 ## Table of Contents
 
@@ -82,20 +83,27 @@ python bookmark2excel.py
 
 - **Select HTML file**: A file dialog will appear; choose your bookmarks HTML file.
 - **Folder Selection**: A GUI window will open showing your bookmark folders. Check the ones you want to process and click "Confirm".
+  
 <img src="assets/folder_selection_gui.png" alt="Shows the folder selection interface" width="750"/>
+
 - **Include Source Filename?**: You will be prompted to decide if you want to include the input file name in the output Excel file.
+  
 <img src="assets/input_filename_prompt.png" alt="Shows the 'store input filename' prompt" width="350"/>
+
 - **Save Excel File**: Choose the location and filename for the Excel output.
 
 **3. Review the output:**
 
 - A summary window will show the number of bookmarks processed and the location of the Excel file.
-<img src="assets/processing_complete_dialog.png" alt="Shows the completion summary dialog" width="450"/>  
+  
+<img src="assets/processing_complete_dialog.png" alt="Shows the completion summary dialog" width="450"/>
+
 - Open the Excel file to review your organized bookmark data.
   The generated Excel file will have: 
 ` Each folder level in a separate column`,
 ` Bookmark titles, URLs, and dates`,
 ` Formatted hyperlinks and dates`
+
 <img src="assets/excel_output_preview.png" alt="Shows the Excel output format" width="1200"/>  
 
 ## Project Structure
@@ -134,7 +142,8 @@ If you wish to contribute or enhance BM2Excel:
 
 - The tool relies on proper HTML structure in the bookmark file. Malformed files may cause unexpected results.
 - GUI dialogs might behave differently on various operating systems. Contributions to improve cross-platform compatibility are welcome.
-: **Test Environment:** This code has been tested only on macOS. Users running it on Windows or Linux may encounter different behavior.
+
+**Test Environment:** This code has been tested only on macOS. Users running it on Windows or Linux may encounter different behavior.
 
 ## Contributing
 
